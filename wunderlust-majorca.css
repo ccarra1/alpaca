@@ -1,0 +1,1175 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    -webkit-text-decoration: underline dotted;
+            text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+/* --------------- CUSTOM STYLES BY ME - SOLUTION FILE --------------- */
+
+/* ---------- GLOBAL/MOBILE STYLES ---------- */
+/* ---------- ROOT STYLES ---------- */
+:root{
+    --sea-blue: #55BCD5;
+    --deep-blue: #499BD2;
+    --purple: #9B26B0;
+    --white: #fff;
+    --yellow: #F6D64A;
+    --light-gray: #eaeaea;
+    --dark-gray: #222;
+    font-size: 16px; /* 16px = 12pt */
+    --heading-font: "Molle", sans-serif;
+    --body-font: "Montserrat", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADING STYLES ---------- */
+h1, h2, h3{
+    font-family: var(--heading-font);
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1{
+    grid-column: 1/-1;
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.5rem;
+}
+
+h2{
+    font-size: 1.75rem;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+h3{
+    font-size: 1.75rem;
+    margin-top: 1rem;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-family: var(--body-font);
+    font-weight: bold;
+    margin: 0.25rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#testimonials h4{
+    font-size: 1.5rem;
+}
+
+#about h4{
+    font-size: 1.1rem;
+}
+
+#contact h3{
+    margin-bottom: 1rem;
+}
+
+/* ---------- HIDDEN HEADING STYLES ---------- */
+/* FROM: https://webaim.org/techniques/css/invisiblecontent/ */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* ---------- LINK STYLES ---------- */
+a{
+    display: block;
+    padding: 1rem;
+    font-family: var(--body-font);
+}
+
+nav a{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+
+#logo{
+    padding: 0.25rem;
+}
+
+#plan a{
+    padding: 0;
+    min-width: 50%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/* ---------- LINK HOVER STYLES ---------- */
+@media (hover: hover){
+    #menu-toggle a:hover{
+        background-color: var(--yellow);
+    }
+
+    footer a:hover{
+        text-decoration: underline;
+    }
+}
+
+/* ---------- TEXT STYLES ---------- */
+header p{
+    grid-column: 1/-1;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    font-size: 1.15rem;
+}
+
+p, q{
+    font-family: var(--body-font);
+    max-width: 75ch;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+q{
+    display: block;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+#testimonials p, #testimonials q{
+    text-align: center;
+    padding: 0;
+}
+
+#testimonials p{
+    margin: 0.25rem 0;
+}
+
+#testimonials q{
+    margin: 0.5rem 0;
+}
+
+#about p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.form-required{
+    font-family: var(--body-font);
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.required{
+    font-family: var(--body-font);
+    font-size: 1.25rem;
+    color: var(--purple);
+}
+
+/* ---------- IMAGE STYLES ---------- */
+img, picture{
+    display: block;
+    max-width: 100%;
+}
+
+header img{
+    width: 100px;
+    padding: 0.5rem;
+}
+
+#img-grid img{
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 385px;
+}
+
+#plan img{
+    min-width: 50%;
+    max-width: 200px;
+}
+
+#testimonials img{
+    margin: 0 auto 1rem auto;
+    max-width: 200px;
+}
+
+#about img{
+    height: 80px;
+    max-height: 150px;
+    margin: 0 auto 1rem auto;
+}
+
+/* ---------- FORM STYLES ---------- */
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, label, legend, select, option{
+    font-family: var(--body-font);
+    display: block;
+    width: 90%;
+}
+
+label, legend{
+    font-weight: bold;
+    margin: 1rem 0 0.25rem 0;
+    text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder{
+    color: var(--dark-gray);
+}
+
+input::-moz-placeholder{
+    color: var(--dark-gray);
+}
+
+input:-ms-input-placeholder{
+    color: var(--dark-gray);
+}
+
+input::-ms-input-placeholder{
+    color: var(--dark-gray);
+}
+
+input::placeholder{
+    color: var(--dark-gray);
+}
+
+/* custom input styles from https://moderncss.dev/custom-css-styles-for-form-inputs-and-textareas/ */
+input{
+    padding: 0.25rem 0.5rem;
+    background-color: var(--white);
+    border: 2px solid var(--purple);
+    border-radius: 0;
+    height: 50px;
+    margin: 0 auto;
+    outline: none;
+}
+
+/* reset select to add custom styles from: https://moderncss.dev/custom-select-styles-with-pure-css/ */
+select{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1rem 0 0 ;
+    margin: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-select{
+    height: 50px;
+    border: 2px solid var(--purple);
+    padding: 0.25rem 0.5rem;
+    background-color: var(--white);
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "select";
+    align-items: center;
+    position: relative;
+}
+
+select, .custom-select:after{
+    grid-area: select;
+}
+
+.custom-select::after{
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    background-color: var(--purple);
+    -webkit-clip-path: polygon(0% 0%, 50% 40%, 100% 0%, 100% 10%, 50% 50%, 0% 10%);
+            clip-path: polygon(0% 0%, 50% 40%, 100% 0%, 100% 10%, 50% 50%, 0% 10%);
+    justify-self: end;
+}
+
+select:focus + .focus{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--deep-blue);
+    box-shadow: 0 0 0 2px #555;
+    outline: 3px solid transparent;
+}
+
+option{
+    color: var(--dark-gray);
+}
+
+input:focus{
+    border-color: var(--deep-blue);
+    box-shadow: 0 0 0 2px #555;
+    outline: 3px solid transparent;
+}
+
+fieldset{
+    padding: 0;
+    margin-top: 1rem;
+}
+
+fieldset label{
+    display: grid;
+    grid-template-columns: -webkit-min-content auto;
+    grid-template-columns: min-content auto;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* custom radio button styles from https://moderncss.dev/pure-css-custom-styled-radio-buttons/ */
+input[type=radio]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.radio-input{
+    display: flex;
+}
+
+.radio-input input:checked + .radio-control{
+    background: radial-gradient(var(--purple) 50%, var(--white) 51%);
+}
+
+.radio-input input:focus + .radio-control{
+    box-shadow: 0 0 0 0.35em var(--deep-blue);
+}
+
+.radio-control{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+}
+
+.radio-label{
+    color: var(--dark-gray);
+    text-transform: none;
+    font-weight: normal;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset label{
+    padding-left: 1.5rem;
+}
+
+form span{
+    color: var(--purple);
+}
+
+input[type=submit]{
+    padding: 1rem;
+    background-color: var(--purple);
+    color: var(--white);
+    width: 97%;
+    margin: 1rem auto;
+    text-transform: uppercase;
+}
+
+/* ---------- CONTAINER STYLES ---------- */
+#plan, #testimonials, #about, #contact{
+    padding: 1rem;
+    width: calc(100% - 2rem);
+}
+
+#plan{
+    background-color: var(--yellow);
+    padding-bottom: 2rem;
+}
+
+#plan section{
+    background-color: var(--sea-blue);
+    border: 3px solid var(--white);
+    border-radius: 5%;
+    padding: 0.5rem;
+    width: 90%;
+    max-width: 350px;
+    margin: 1rem auto;
+}
+
+#testimonials section{
+    padding: 1rem;
+}
+
+#about{
+    padding: 1rem;
+    background-color: var(--deep-blue);
+}
+
+#about div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* ---------- HEADER STYLES ---------- */
+header{
+    /* Linear Gradient syntax from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient() */
+    background: linear-gradient(var(--sea-blue), var(--white));
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 2rem;
+}
+
+/* ---------- MOBILE NAV STYLES ---------- */
+nav{
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    margin: 1rem 0;
+    width: 90%;
+    max-width: 350px;
+    justify-self: end;
+}
+
+#menu-toggle{
+    display: block;
+    /* position: relative;
+    top: 50px;
+    right: 0;
+    z-index: 1; */
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    justify-self: end;
+    margin: 0;
+    width: 100%;
+    background-color: var(--yellow);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    justify-self: end;
+}
+
+#menu-toggle a{
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+#menu-toggle input{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+#menu-toggle label{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+#menu-toggle input:checked + label{
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+nav ul{
+    position: absolute;
+    width: 100vw;
+    margin: -150vw 0 0 100vw;
+    padding: 2.5rem 0 0 0;
+    background-color: var(--sea-blue);
+    list-style-type: none;
+}
+
+nav li{
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+#menu-toggle input:checked ~ label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 1.5rem;
+    z-index: 2;
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+#menu-toggle input:checked ~ ul{
+    left: -100vw;
+    top: 150vw;
+}
+
+/* ---------- SKIP LINK STYLES ---------- */
+/* FROM: https://webaim.org/techniques/css/invisiblecontent/ */
+#skip
+{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+ 
+#skip:focus
+{
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+/* ---------- MAIN STYLES ---------- */
+
+
+/* ---------- FOOTER STYLES ---------- */
+footer{
+    background-color: var(--light-gray);
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+footer p{
+    padding: 0;
+    font-size: 1rem;
+}
+
+footer a{
+    color: var(--dark-gray);
+    text-decoration: none;
+}
+
+/* ---------- MEDIUM SCREEN STYLES ---------- */
+@media screen and (min-width: 650px){
+
+    #intro p{
+        font-size: 1.25rem;
+        line-height: 1.75;
+    }
+
+    #img-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    #img-grid picture{
+        grid-column: 1/-1;
+        width: 100%;
+    }
+
+    picture img, #img-grid img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #plan div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    #plan section{
+        margin: 0 auto;
+    }
+
+    #testimonials div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    fieldset{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    fieldset legend{
+        grid-column: 1/-1;
+    }
+
+    fieldset label{
+        grid-template-columns: -webkit-min-content -webkit-max-content;
+        grid-template-columns: min-content max-content;
+        margin: 0 auto;
+    }
+
+    #names{
+        grid-column: 1/2;
+    }
+
+    input[type=submit]{
+        width: 94%;
+    }
+
+    #about div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    footer a{
+        padding: 1rem 0;
+    }
+}
+
+/* ---------- MEDIUM SCREEN STYLES WITH NAV CHANGE ---------- */
+@media screen and (min-width: 670px){
+    header{
+        padding: 1rem 1rem 2rem 1rem;
+        width: calc(100% - 2rem);
+        align-items: center;
+    }
+
+    #logo{
+        grid-row: 1/3;
+    }
+
+    #logo img{
+        width: 100%;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    h1{
+        grid-row: 1/2;
+        align-self: end;
+        margin-top: 1.5rem;
+    }
+
+    h1, header p{
+        grid-column: 2/-1;
+    }
+
+    header p{
+        align-self: start;
+    }
+
+    #toggle, #menu-toggle label, #menu-toggle input{
+        display: none;
+    }
+
+    nav{
+        margin: 0 0 1rem 0;
+    }
+
+    nav, #menu-toggle, nav ul{
+        grid-column: 1/-1;
+        grid-row: auto;
+        width: 100%;
+        max-width: 950px;
+        margin: 0 auto;
+        background-color: transparent;
+    }
+
+    nav ul{
+        position: static;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    nav li{
+        border-bottom: none;
+        background-color: var(--white);
+    }
+
+    nav a{
+        padding: 1rem;
+    }
+
+    .active{
+        background-color: var(--yellow);
+    }
+}
+
+/* ---------- LARGE SCREEN STYLES ---------- */
+@media screen and (min-width: 1000px){
+
+    #intro{
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        -moz-column-gap: 1rem;
+             column-gap: 1rem;
+        padding: 1rem;
+    }
+
+    #img-grid{
+        width: 100%;
+        max-width: 948px;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    #intro h2, #intro p{
+        grid-column: 1/2;
+        padding: 1rem 1rem 0 0 ;
+    }
+
+    #plan, #testimonials, #about, #contact{
+        grid-column: 1/-1;
+    }
+
+    #plan div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1500px;
+    }
+
+    #plan section{
+        padding: 1rem;
+        width: calc(100% - 2rem);
+    }
+
+    #plan h4{
+        margin-bottom: 1rem;
+    }
+
+    #testimonials div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        width: 100%;
+        max-width: 1500px;
+    }
+
+    input[type=submit]{
+        width: 50%;
+        margin: 2rem 0 0 25%;
+        position: relative;
+        right: -23%;
+    }
+
+    #names, #nums, #selects{
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    header{
+        grid-template-columns: 1fr 2fr 3fr;
+        padding: 0 0 1rem 1rem;
+        margin: 0;
+        width: calc(100% - 1rem);
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2, h3{
+        font-size: 2.25rem;
+    }
+
+    nav{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin: -1.75rem 0 0 0;
+    }
+
+    nav a{
+        padding: 1rem 0.5rem;
+    }
+
+    #intro{
+        grid-template-columns: 500px 1fr;
+        gap: 0;
+        width: calc(100% - 2rem);
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    #about div{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    h3{
+        margin-left: 5%;
+    }
+}
